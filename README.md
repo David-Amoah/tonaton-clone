@@ -1,2 +1,1 @@
-# Tonaton-clone
-A clone of Tonaton
+# [Live Demo](https://da-tonaton-clone.herokuapp.com/)
