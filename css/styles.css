@@ -42,6 +42,10 @@ nav button {
     font-weight: 550;
 }
 
+.fa-bars {
+    display: none;
+}
+
 .container {
     display: flex;
     margin: 0 auto;
@@ -368,5 +372,8 @@ button.play {
     }
     .info {
         font-size: 14.5px;
+    }
+    .container {
+        height: 2030px;
     }
 }
