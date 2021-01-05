@@ -42,10 +42,6 @@ nav button {
     font-weight: 550;
 }
 
-.fa-bars {
-    display: none;
-}
-
 .container {
     display: flex;
     margin: 0 auto;
@@ -318,6 +314,7 @@ input {
     margin-top: 1em;
     background-color: #73e298;
     padding: 1rem;
+    cursor: pointer;
 }
 
 button.app {
