@@ -42,12 +42,16 @@ nav button {
     font-weight: 550;
 }
 
+.fa-bars {
+    display: none;
+}
+
 .container {
     display: flex;
     margin: 0 auto;
+    height: 2000px;
     width: 1030px;
     max-width: 80%;
-    height: 2000px;
     max-height: 80%;
 }
 
@@ -326,7 +330,21 @@ button.play {
     background-color: black;
 }
 
+@media(max-width:850px) {
+    #newsletter {
+        padding: 1rem;
+        margin-top: 2.5rem;
+    }
+}
+
 @media(max-width: 750px) {
+    .fa-bars {
+        display: block;
+        font-size: 30px;
+    }
+    nav {
+        display: none;
+    }
     .sidebar {
         display: none;
     }
@@ -344,5 +362,14 @@ button.play {
     }
     .sign-up {
         margin: 0 auto;
+    }
+}
+
+@media(max-width:450px) {
+    .box {
+        padding: 40px;
+    }
+    .info {
+        font-size: 14.5px;
     }
 }
