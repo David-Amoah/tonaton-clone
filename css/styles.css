@@ -24,6 +24,10 @@ header {
     margin: 0 auto;
 }
 
+.logo h1 {
+    color: white;
+}
+
 nav a {
     text-decoration: none;
     margin-right: 1em;
@@ -35,6 +39,10 @@ nav a:hover {
     color: #ebf0ee;
 }
 
+.bars {
+    display: none;
+}
+
 nav button {
     background-color: #ffc800;
     padding: 14px;
@@ -42,8 +50,9 @@ nav button {
     font-weight: 550;
 }
 
-.fa-bars {
-    display: none;
+i {
+    margin-right: .3em;
+    font-size: 25px;
 }
 
 .container {
@@ -333,15 +342,24 @@ button.play {
 
 @media(max-width:850px) {
     #newsletter {
-        padding: 1rem;
-        margin-top: 2.5rem;
+        padding: 1em;
+        margin-top: 40px;
+    }
+    .sign-up {
+        margin: 0 auto;
+    }
+    .sign-up input {
+        margin-top: 20px;
+        transform: translate(100px);
     }
 }
 
 @media(max-width: 750px) {
-    .fa-bars {
+    .bars {
         display: block;
         font-size: 30px;
+        color: white;
+        cursor: pointer;
     }
     nav {
         display: none;
@@ -352,17 +370,34 @@ button.play {
     .carousel {
         width: 80%;
     }
-}
-
-@media(max-width:650px) {
-    .carousel {
-        width: 90%;
-    }
     .inner {
         display: none;
     }
     .sign-up {
         margin: 0 auto;
+    }
+    .sign-up input {
+        transform: translate(-5px);
+    }
+}
+
+@media(max-width:600px) {
+    #newsletter {
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:500px) {
+    #newsletter {
+        margin-top: -20px;
+    }
+    .sign-up input {
+        transform: translate(100px);
+    }
+    #container {
+        width: 400px;
+        margin: 0 auto;
+        transform: translate(-40px);
     }
 }
 
@@ -375,5 +410,20 @@ button.play {
     }
     .container {
         height: 2030px;
+    }
+}
+
+@media(max-width:400px) {
+    #container {
+        width: 100%;
+    }
+    #container a {
+        width: 300px;
+    }
+    .sign-up {
+        margin: 0 auto;
+    }
+    .sign-up input {
+        transform: translate(-2px);
     }
 }
