@@ -187,6 +187,7 @@ i {
 
 .listing:hover {
     border: 2px solid #91b4a3;
+    transform: scale(1.1);
 }
 
 img {
@@ -382,6 +383,10 @@ button.play {
 }
 
 @media(max-width:600px) {
+    #container {
+        margin: 0;
+        width: 450px;
+    }
     #newsletter {
         margin-top: 150px;
     }
@@ -396,14 +401,14 @@ button.play {
     }
     #container {
         width: 400px;
-        margin: 0 auto;
+        margin: 0;
         transform: translate(-40px);
     }
 }
 
 @media(max-width:450px) {
     .box {
-        padding: 40px;
+        padding: 45px;
     }
     .info {
         font-size: 14.5px;
@@ -415,15 +420,19 @@ button.play {
 
 @media(max-width:400px) {
     #container {
+        margin: 0;
         width: 100%;
     }
     #container a {
-        width: 300px;
+        width: 330px;
     }
     .sign-up {
         margin: 0 auto;
     }
     .sign-up input {
         transform: translate(-2px);
+    }
+    .info span {
+        font-size: 10px;
     }
 }
