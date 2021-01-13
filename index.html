@@ -25,7 +25,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 
-
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/jpeg" href="images/apt3.jpeg">
 
 
 
@@ -33,253 +34,277 @@
 
 <body>
 
+    <!-- header -->
     <header>
-        <div class="main-header">
+
+        <!-- Header Wrapper -->
+        <div class="header-wrapper">
+
+            <!-- Logo -->
             <div class="logo">
                 <h1>Logo</h1>
             </div>
+            <!-- End Logo -->
 
+            <!-- Nav -->
             <nav>
                 <a href="#"><i class="fas fa-comments"></i>Chat</a>
                 <a href="#"><i class="fas fa-sign-in-alt"></i>Login</a>
                 <button>Post Your Ad</button>
-                <!-- <i class="fas fa-bars"></i> -->
-
             </nav>
+            <!-- End-Nav -->
 
-            <div class="bars"><i class="fas fa-bars"></i></div>
-
-
+            <!-- Menu -->
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <!-- End menu -->
 
         </div>
+        <!-- End Header Wrapper -->
+
     </header>
+    <!-- End header -->
 
 
-    <div class="container">
+    <section id="main-wrapper">
+        <div class="container">
 
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <h3>All Categories</h3>
+            <!-- Sidebar -->
+            <div class="sidebar">
 
-            <a href="#">Electronics</a>
-            <a href="#">Home and Garden</a>
-            <a href="#">Properties</a>
-            <a href="#">Jobs Services</a>
-            <a href="#">Services</a>
-            <a href="#">Other</a>
+                <h3>All Categories</h3>
 
-            <hr>
-
-            <h3>Location</h3>
-            <h4>All accross Ghana</h4>
-            <a href="#">Greater Accra</a>
-            <a href="#">Nothern Region</a>
-            <a href="#">Ashanti Region</a>
-            <a href="#">Volta Region</a>
-            <a href="#">Eastern Region</a>
-            <a href="#">Upper West</a>
-            <a href="#">Upper East</a>
-            <a href="#">Central Region</a>
-            <a href="#">Oti Region</a>
-        </div>
-
-        <!-- Carousel -->
-        <div class="carousel">
-            <button class="carousel_button carousel_button--left is-hidden">
-                <img src="images/left.svg" alt="">
-            </button>
-            <div class="carousel_track-container">
-                <ul class="carousel_track">
-                    <li class="carousel_slide current-slide">
-                        <img class="carousel_image" src="images/cropped.jpg" alt="">
-                    </li>
-                    <li class="carousel_slide">
-                        <img class="carousel_image" src="images/cropped (1).jpg" alt="">
-                    </li>
-                    <li class="carousel_slide">
-                        <img class="carousel_image" src="images/cropped (2).jpg" alt="">
-                    </li>
-                    <li class="carousel_slide">
-                        <img class="carousel_image" src="images/cropped (3).jpg" alt="">
-                    </li>
-                    <li class="carousel_slide">
-                        <img class="carousel_image" src="images/cropped (4).jpg" alt="">
-                    </li>
-                </ul>
-            </div>
-            <button class="carousel_button carousel_button--right">
-                <img src="images/right.svg" alt="">
-            </button>
-
-            <div class="carousel_nav">
-                <button class="carousel_indicator current-slide"></button>
-                <button class="carousel_indicator"></button>
-                <button class="carousel_indicator"></button>
-                <button class="carousel_indicator"></button>
-                <button class="carousel_indicator"></button>
-            </div>
-
-
-            <!-- Listings -->
-            <div id="container">
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box one"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">4 bedroom storey building for sale</span>
-                            <span class="size">Rooms are en-suite</span>
-                            <span class="description">Dansoman, Greater-Accra</span>
-                            <span class="price">GH₵ 250,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box two"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">Fully furnished house for sale</span>
-                            <span class="size">Bed:4 Bath:6</span>
-                            <span class="description">Okponglo, Legon</span>
-                            <span class="price">GH₵ 700,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box three"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">House with swimmig pool for sale</span>
-                            <span class="size">Bed:5 Bath:9</span>
-                            <span class="description">Bantama, Ashanti Region</span>
-                            <span class="price">GH₵ 699,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box four"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">Affordable house for sale</span>
-                            <span class="size">Includes a 2-car garage</span>
-                            <span class="description">Cantoments, Accra</span>
-                            <span class="price">GH₵ 900,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box five"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">Storey Building for sale</span>
-                            <span class="size">Bed:6 Bath:9</span>
-                            <span class="description">@ Haatso, Accra</span>
-                            <span class="price">GH₵ 1,250,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box six"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">4 bedroom house for sale</span>
-                            <span class="size">1000sqft</span>
-                            <span class="description">Greater-Accra, Dansoman</span>
-                            <span class="price">GH₵ 250,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box seven"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">Land for Sale at Kasoa</span>
-                            <span class="size">70/100sqft</span>
-                            <span class="description">Kasoa, Central Region</span>
-                            <span class="price">GH₵ 20,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box eight"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">Quatar Plot For Lease</span>
-                            <span class="size">70sqft</span>
-                            <span class="description">Greater-Accra, Dansoman</span>
-                            <span class="price">GH₵ 25,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box nine"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">Shops for lease</span>
-                            <span class="size">2000m²</span>
-                            <span class="description">Kaneshie, Greater-Accra</span>
-                            <span class="price">GH₵ 1,000</span>
-                        </div>
-
-                    </li>
-                </a>
-
-                <a href="#">
-                    <li class="listing">
-                        <div class="image-wrapper">
-                            <div class="box ten"></div>
-                        </div>
-                        <div class="info">
-                            <span class="heading">Office Space for rent</span>
-                            <span class="size">1300m²</span>
-                            <span class="description">Gbawe, Greater-Accra</span>
-                            <span class="price">GH₵ 2,000 negotiable </span>
-                        </div>
-
-                    </li>
-                </a>
+                <a href="#">Electronics</a>
+                <a href="#">Home and Garden</a>
+                <a href="#">Properties</a>
+                <a href="#">Jobs Services</a>
+                <a href="#">Services</a>
+                <a href="#">Other</a>
 
 
             </div>
+            <!-- End Sidebar -->
 
+
+
+            <!-- Carousel -->
+            <div class="carousel">
+
+                <button class="carousel_button carousel_button--left is-hidden">
+                    <img src="images/left.svg" alt="">
+                </button>
+
+                <!-- Carousel-track-container -->
+                <div class="carousel_track-container">
+
+                    <ul class="carousel_track">
+
+                        <li class="carousel_slide current-slide">
+                            <img class="carousel_image" src="images/cropped.jpg" alt="">
+                        </li>
+
+                        <li class="carousel_slide">
+                            <img class="carousel_image" src="images/cropped (1).jpg" alt="">
+                        </li>
+
+                        <li class="carousel_slide">
+                            <img class="carousel_image" src="images/cropped (2).jpg" alt="">
+                        </li>
+
+                        <li class="carousel_slide">
+                            <img class="carousel_image" src="images/cropped (3).jpg" alt="">
+                        </li>
+
+                        <li class="carousel_slide">
+                            <img class="carousel_image" src="images/cropped (4).jpg" alt="">
+                        </li>
+
+                    </ul>
+
+                </div>
+                <!-- End Carousel-track-container -->
+
+
+                <button class="carousel_button carousel_button--right">
+                    <img src="images/right.svg" alt="">
+                </button>
+
+                <!-- Carousel-nav -->
+                <div class="carousel_nav">
+                    <button class="carousel_indicator current-slide"></button>
+                    <button class="carousel_indicator"></button>
+                    <button class="carousel_indicator"></button>
+                    <button class="carousel_indicator"></button>
+                    <button class="carousel_indicator"></button>
+                </div>
+                <!-- End Carousel-nav -->
+
+            </div>
+            <!-- End Carousel -->
 
         </div>
+        <!-- End Container -->
 
 
-    </div>
+        <!-- Listings -->
+        <div id="container">
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box one"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">4 bedroom storey building for sale</span>
+                        <span class="size">Rooms are en-suite</span>
+                        <span class="description">Dansoman, Greater-Accra</span>
+                        <span class="price">GH₵ 250,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box two"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">Fully furnished house for sale</span>
+                        <span class="size">Bed:4 Bath:6</span>
+                        <span class="description">Okponglo, Legon</span>
+                        <span class="price">GH₵ 700,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box three"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">House with swimmig pool for sale</span>
+                        <span class="size">Bed:5 Bath:9</span>
+                        <span class="description">Bantama, Ashanti Region</span>
+                        <span class="price">GH₵ 699,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box four"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">Affordable house for sale</span>
+                        <span class="size">Includes a 2-car garage</span>
+                        <span class="description">Cantoments, Accra</span>
+                        <span class="price">GH₵ 900,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box five"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">Storey Building for sale</span>
+                        <span class="size">Bed:6 Bath:9</span>
+                        <span class="description">@ Haatso, Accra</span>
+                        <span class="price">GH₵ 1,250,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box six"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">4 bedroom house for sale</span>
+                        <span class="size">1000sqft</span>
+                        <span class="description">Greater-Accra, Dansoman</span>
+                        <span class="price">GH₵ 250,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box seven"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">Land for Sale at Kasoa</span>
+                        <span class="size">70/100sqft</span>
+                        <span class="description">Kasoa, Central Region</span>
+                        <span class="price">GH₵ 20,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box eight"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">Quatar Plot For Lease</span>
+                        <span class="size">70sqft</span>
+                        <span class="description">Greater-Accra, Dansoman</span>
+                        <span class="price">GH₵ 25,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box nine"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">Shops for lease</span>
+                        <span class="size">2000m²</span>
+                        <span class="description">Kaneshie, Greater-Accra</span>
+                        <span class="price">GH₵ 1,000</span>
+                    </div>
+
+                </li>
+            </a>
+
+            <a href="#">
+                <li class="listing">
+                    <div class="image-wrapper">
+                        <div class="box ten"></div>
+                    </div>
+                    <div class="info">
+                        <span class="heading">Office Space for rent</span>
+                        <span class="size">1300m²</span>
+                        <span class="description">Gbawe, Greater-Accra</span>
+                        <span class="price">GH₵ 2,000 negotiable </span>
+                    </div>
+
+                </li>
+            </a>
+
+
+        </div>
+        <!-- End Listings -->
+    </section>
+
+
 
     <!-- newsletter -->
     <div id="newsletter">
@@ -299,14 +324,18 @@
             </div>
         </div>
 
+        <!-- Sign-up -->
         <div class="sign-up">
             <h2>Sign Up Now</h2>
             <input type="text" placeholder="Full Name">
             <input type="email" placeholder="Email Address">
             <button class="submit">Sign Up</button>
         </div>
+        <!-- End Sign-up -->
 
     </div>
+    <!-- End newsletter -->
+
 
 
 
@@ -318,15 +347,8 @@
             <p class="copyright">&copy; 2020. All Rights Reserved</p>
         </div>
 
-
     </div>
-
-
-
-
-
-
-
+    <!-- End footer -->
 
 </body>
 
